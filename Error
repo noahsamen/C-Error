@@ -1,0 +1,32 @@
+#include <iostream>
+int mmm1(int f, int g);  //functions
+int max(int f, int g);
+int min(int f, int g);
+int main() {
+  std::cout << "Function Declarations and Definition\n";
+  int f{3};
+  int g{4};
+  int sumf = mmm1(f,g);
+  std::cout<<"\nmm1: "<<sumf;
+  sumf = min(f,g);
+  std::cout<<
+  "\nmin value: "<<sumf;
+}
+int mm1(int f, int g){  //Definition
+  if(f<g)
+    return f;
+  else
+    return g;
+}
+int max(int f, int g){
+  if(f>g)
+    return f;
+  else
+    return g;
+}
+int min(int f, int g){
+  if(f<g)
+    return f;
+  else
+    return g;
+}
