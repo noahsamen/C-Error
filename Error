@@ -9,8 +9,7 @@ int main() {
   int sumf = mmm1(f,g);
   std::cout<<"\nmm1: "<<sumf;
   sumf = min(f,g);
-  std::cout<<
-  "\nmin value: "<<sumf;
+  std::cout<<"\nmin value: "<<sumf;
 }
 int mm1(int f, int g){  //Definition
   if(f<g)
